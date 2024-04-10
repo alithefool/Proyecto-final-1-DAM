@@ -1,0 +1,88 @@
+<mxfile host="Electron" modified="2024-04-10T11:12:29.615Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="jykTPXbU6jEBTP731U8G" version="24.0.4" type="device">
+  <diagram name="Page-1" id="g7jQOUo30wly0EwfjcqG">
+    <mxGraphModel dx="2043" dy="1259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-4" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-5" value="Logrador de Mazos&lt;div&gt;(servicio)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="670" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-27" value="Basura del workbench del cliente" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="200" y="720" width="440" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-29" value="Recoger itemo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="10" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-56" value="Recoger itemos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="260" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-57" value="Escoger todos los itemos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-58" value="Borrar itemo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="130" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-59" value="Borrar todos" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="140" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-60" value="Escoger un itemo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-27">
+          <mxGeometry x="10" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-34" value="Escritorio del Servicio (Mazo workbench)" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="440" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-35" value="Registrar Usuario" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-34">
+          <mxGeometry x="40" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-37" value="Crear/Editar una nueva mazo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-34">
+          <mxGeometry x="20" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-38" value="Ir al basura" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-34">
+          <mxGeometry x="300" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-39" value="Mira a las tus mazo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-34">
+          <mxGeometry x="170" y="240" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-40" value="Creacion/Edita de Mazo" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="720" y="40" width="440" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-42" value="Escoger el numero de cartas en el mazo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="40" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-69" value="rellena campos que definan las characteristicas" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="160" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-70" value="Escoger el numero de cartas en el mazo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="40" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-71" value="Escoger el numero de cartas en el mazo" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-72" value="Crear" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="40" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-73" value="Editar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="280" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-81" value="Importar" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="b2gdafw9vcIs6ifxPlmt-40">
+          <mxGeometry x="280" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-46" value="Barajas Creadas" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="720" y="720" width="440" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-61" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-62" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="940" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b2gdafw9vcIs6ifxPlmt-63" value="Cliente" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
