@@ -1,0 +1,51 @@
+INSERT INTO Iberian (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder1', 001, 1, 'I', 'Unit', '-', '1/1', 'Alp');
+	
+INSERT INTO Celt (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder2', 002, 2, 'CC', 'Unit', '-', '2/2', 'Alp');
+	
+INSERT INTO Etruscan (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder3', 003, 3, 'EEE', 'Unit', '-', '3/3', 'Alp');
+	
+INSERT INTO Mycenaean (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder4', 004, 4, 'MMMM', 'Unit', '-', '4/4', 'Alp');
+	
+INSERT INTO Phoenician (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder5', 005, 5, 'P', 'Unit', '-', '5/5', 'Alp');
+	
+INSERT INTO Hittite (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder6', 006, 6, 'HH', 'Unit', '-', '6/6', 'Alp');
+	
+INSERT INTO Mercenary (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder7', 007, 7, '-', 'Unit', '-', '7/7', 'Alp');
+	
+INSERT INTO Land (Nombre, Id_Carta, coste, coste_cultural, Supertipo, Reglas_De_Texto, PT, Set_)
+VALUES 
+    ('Placeholder8', 008, 8, '-', 'Unit', '-', '8/8', 'Alp');
+	
+INSERT INTO GameLog (Id_Juego, Contador_Jugador, Contador_Turno)
+VALUES 
+    (J12345, 6, 14);
+
+INSERT INTO Usuarios (Id_Usuario, Nombre_Usuario, Contraseña, Mazos_Creados)
+VALUES 
+    (U12345, 'Juan_Lopez101', '112000Jaen', 2);
+
+INSERT INTO Mazos (Id_Mazo, Nombre, Cartas_Totales)
+VALUES 
+    (M12345, 'Mazo1', 45);
+
+INSERT INTO Impresion (Id_Impresion, Id_Mazo)
+VALUES 
+    (I12345, M12345);
+
+INSERT INTO ConsultaDeBusqueda (Id_Consulta, Detalles_De_Consulta, TiempoPedido, Id_Usuario)
+VALUES 
+    (C12345, 'is:Hittite', 11:23, J12345);
