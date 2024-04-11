@@ -144,21 +144,24 @@ Nombre_Usuario varchar (20) not null ,
 Contraseña varchar (20) not null ,
 Mazos_Creados int not null,
 FOREIGN KEY (`Id_Usuario`) REFERENCES `usuarios_registrados`(`Id_Usuario`) ON UPDATE CASCADE,
-FOREIGN KEY (`Id_Usuario`) REFERENCES `ConsultaDeBusqueda`(`Id_Usuario`) ON UPDATE CASCADE
+FOREIGN KEY (`Id_Usuario`) REFERENCES `ConsultaDeBusqueda`(`Id_Usuario`) ON UPDATE CASCADE,
+FOREIGN KEY (`Id_Usuario`) REFERENCES `Mazos`(`Id_Usuario`) ON UPDATE CASCADE
 );
 
 Create table Mazos(
 Id_Mazo int primary key not null ,
+`Id_Usuario` INT NOT NULL ,
 Nombre varchar (15) not null ,
 Cartas_Totales int not null ,
- FOREIGN KEY (Id_Mazo) REFERENCES Contenidos(Id_Mazo) ON UPDATE CASCADE
+ FOREIGN KEY (Id_Mazo) REFERENCES Contenidos(Id_Mazo) ON UPDATE CASCADE,
+ FOREIGN KEY (`Id_Usuario`) REFERENCES `Usuarios`(`Id_Usuario`) ON UPDATE CASCADE
 
 );
 
 Create table Impresion(
 Id_Impresion int primary key not null ,
+`Id_Mazo` INT NOT NULL,
  FOREIGN KEY (Id_Mazo) REFERENCES Mazos(Id_Mazo) ON UPDATE CASCADE
-
 );
 
 Create table ConsultaDeBusqueda(
@@ -231,4 +234,5 @@ CREATE TABLE IF NOT EXISTS `usuarios_registrados` (
 
 
 
+ 
  
