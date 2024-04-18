@@ -1,5 +1,9 @@
 Overview:
 
+New features:
+
+-querys are stored up to a number on the database, say 50 or 100 and then the oldest entry is deleted to make space for the new one.
+
 Questions: 
 
 -Why is busquedas and usuarios connected? I think we could add a table that is limited in attributes but represents how the service makes the searches, so that nothing passes fk to users and makes it an independent table. searches can still be made without being registered, 
