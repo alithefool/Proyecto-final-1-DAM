@@ -57,3 +57,110 @@ public class InsertData {
         return (int) (Math.random() * 1000000000); // Example of generating random ID
     }
 }
+
+
+
+
+
+
+
+High level structure for the site
+
+
+GLOBAL
+
+       
+
+
+-User
+
+	-Register
+	
+		-<HTML>
+		-<JSP>
+		-<JAV>
+		-<MySQL>
+	
+	-Login
+	https://www.javatpoint.com/login-form-in-jsp
+	
+		-<HTML> Display login screen
+		-<JSP> Scans and sends the username and password input to the setters/getters
+		-<JAV> Checks the database for the given username and password combination and enables the parts of the site that need user permissions to access
+		-<MySQL> Contanins the password and username to check
+		
+	-Change password
+	
+		-<HTML>
+		-<JSP>
+		-<JAV>
+		-<MySQL>
+	
+	-Logout
+	
+		-<HTML>
+		-<JSP>
+		-<JAV>
+		-<MySQL>
+	
+	-Profile
+	
+		-<HTML>
+		-<JSP>
+		-<JAV>
+		-<MySQL>
+	
+	-Change email/data
+	
+		-<HTML>
+		-<JSP>
+		-<JAV>
+		-<MySQL>
+	
+-Search
+	
+	-Query
+
+
+	-Change display
+
+
+
+-Decks
+
+	-Make deck
+	
+	
+	-Edit deck
+	
+	
+	-Delete deck
+	
+	
+	-Import deck
+	
+	
+	-Export deck
+
+
+
+-Game log
+
+	-Log game
+	
+	
+	-Edit game
+	
+	
+	-Delete game
+
+
+	-See game
+
+
+-Print
+
+	-Get deck
+	
+	
+	-Send to printer
