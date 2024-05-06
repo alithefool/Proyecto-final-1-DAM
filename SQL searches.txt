@@ -2,7 +2,7 @@ SQL sentences for each Advanced setting
 
 SELECT FROM WHERE
 
-Name search
+Name search 
 SELECT * FROM cartas WHERE nombre = %inputed text%
 
 Text search
