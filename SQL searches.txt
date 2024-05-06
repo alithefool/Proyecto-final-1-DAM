@@ -29,6 +29,7 @@ ID Search
 SELECT * FROM cartas WHERE id_carta = %inputed text%
 
 
+COMBINED SEARCHES ARE DONE WITH INTERSECT
 
 
 
@@ -37,5 +38,4 @@ SELECT * FROM cartas WHERE id_carta = %inputed text%
 
 
 
-How to do combined searches
 NEED a link attribute for the card so the SQL returns that cards link and image
