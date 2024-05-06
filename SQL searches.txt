@@ -13,8 +13,8 @@ SELECT * FROM cartas WHERE supertipo = chosen type
 
 Cost search
 SELECT * FROM cartas WHERE coste = "inputed number"
-SELECT * FROM cartas WHERE coste = "inputed number"
-SELECT * FROM cartas WHERE coste = "inputed number"
+SELECT * FROM cartas WHERE coste < "inputed number"
+SELECT * FROM cartas WHERE coste > "inputed number"
 
 Culture cost search
 SELECT * FROM cartas WHERE coste_cultural = "inputed text"
