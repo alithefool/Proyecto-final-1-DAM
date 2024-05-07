@@ -103,7 +103,21 @@
     <input type="checkbox" id="checkbox7" name="None" value="N">
     <label for="checkbox7">None</label><br><br>
   </form>
-	<!-- Separate P/T into 2 tables one for power another for toughness-->
+  	<p>Power/Toughness search</p>
+    <form>
+	<select id="PTSelect" name="PTSelect">
+      <option value="option1">power</option>
+      <option value="option2">Toughness</option>
+    </select><br><br>
+    <label for="PTInput">Enter a Number:</label><br>
+    <input type="number" id="PTInput" name="PTInput"><br><br>
+	 <label for="dropdownSelect">Select an Option:</label><br>
+    <select id="PTCSelect" name="PTCSelect">
+      <option value="option1">=</option>
+      <option value="option2">Greater than</option>
+      <option value="option3">Less than</option>
+    </select><br><br>
+    </form>
 	<p>Set</p>
     <form>
       <input type="text" placeholder="Set code here.">
