@@ -4,6 +4,10 @@
     Author     : cerrchus
 --%>
 
+//redirects to /Login /search /Register /ContactUs /faq /github(orDocumentation) /SupportUs(maybe?) 
+//aside: usually for applications or services that are opensource the documentation is a link to the README.md in the repo
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
