@@ -17,12 +17,12 @@ SET time_zone = "+00:00";
 UNLOCK TABLES;
 
 -- Drop the database if it exists
-DROP DATABASE IF EXISTS `JuegoDeMesa`;
+DROP DATABASE IF EXISTS `Coasline_DCT`;
 
 -- Creamos base de datos
-CREATE DATABASE IF NOT EXISTS `JuegoDeMesa`;
+CREATE DATABASE IF NOT EXISTS `Coastline_DCT`;
 -- Usamos la base de datos
-USE JuegoDeMesa;
+USE Coastline_DCT;
 
 -- Creamos usuarios
 
@@ -119,11 +119,30 @@ INSERT INTO `mazos`(`id_mazo`,`nombre`,`cartas_totales`)
 VALUES
 	(1,'-', NULL),
     (2,'-', NULL);
+            
+DROP TABLE IF EXISTS `registrar_usuario`;
+CREATE TABLE IF NOT EXISTS `registrar_usuario`(
+	`id_reg_usuario` INT NOT NULL AUTO_INCREMENT,
+    `id_visitante` INT NOT NULL,
+    `email` VARCHAR(230) DEFAULT NULL,
+    `contrasena` VARCHAR(20) DEFAULT NULL,
+    `firstname` VARCHAR(30) DEFAULT NULL,
+    `lastname` VARCHAR(30) DEFAULT NULL,
+    `nombre_usuario` VARCHAR(30) DEFAULT NULL,
+    PRIMARY KEY(`id_reg_usuario`),
+    FOREIGN KEY(`id_visitante`) REFERENCES `visitantes`(`id_visitante`),
+    CONSTRAINT `distinto_usuario` UNIQUE (`nombre_usuario`,`email`)
+);
+INSERT INTO `registrar_usuario`(`id_reg_usuario`, `id_visitante`, `email`, `contrasena`, `firstname`, `lastname`, `nombre_usuario`)
+VALUES
+	(1,1,'username1@host.extension','password','John','Doe','mysterious_stranger')
+;
+    
 
 DROP TABLE IF EXISTS `usuarios`;
 CREATE TABLE IF NOT EXISTS `usuarios`(
 	`id_usuario` INT NOT NULL AUTO_INCREMENT,
-    `nombre_usuario` VARCHAR(20) DEFAULT NULL,
+    `nombre_usuario` VARCHAR(30) DEFAULT NULL,
     `email` VARCHAR(320) DEFAULT NULL COMMENT 'alex found something about how long emails can get',
     `contrasena` VARCHAR(20) DEFAULT NULL,
     `mazos_creados` INT DEFAULT NULL,
@@ -138,6 +157,7 @@ INSERT INTO `usuarios`(`id_usuario`,`nombre_usuario`,`email`,`contrasena`,`mazos
 VALUES
 	(1,'username','username1@host.extension','password',1,1,1),
     (2,'username','username@2host.extension','password',1,2,1);
+        
         
 DROP TABLE IF EXISTS `registros_partidas`;
 CREATE TABLE IF NOT EXISTS `registros_partidas`(
