@@ -84,4 +84,4 @@ Supporting the Devs:
 ...
 
 
-Have Suggestions? Need to ask Questions? Conact Us at <insert supportemail>
+Have Suggestions? Need to ask Questions? Conact Us at "insert supportemail"
