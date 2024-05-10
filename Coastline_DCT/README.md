@@ -25,7 +25,7 @@ firstly, there is the matter of choosing methodology, and I'm referring to our a
 <br>
 <br>
 
-<u>key: || refers to completed progress</u>
+<b>key: || refers to completed progress</b>
 
 Development Roadmap:
 
