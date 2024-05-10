@@ -4,11 +4,11 @@ this is the project<br>
 <strong>A Deck Creation tool</strong>
 
 Tools: 
-+NetbeansIDE
-+Ubuntu-22.04-server
-+Apache-tomcat-10.1.23
-+Mysql
-+Virtualbox
+>> NetbeansIDE,
+>> Ubuntu-22.04-server,
+>> Apache-tomcat-10.1.23,
+>> Mysql,
+>> Virtualbox
 
 Languages:
 +Java
