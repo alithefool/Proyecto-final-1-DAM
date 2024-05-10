@@ -34,7 +34,7 @@ Development Roadmap:
 >> Tomcat Service,
 >> helloWorld.jsp,
 >> Sample.war,
->> Constructors,
+>> Java Constructors,
 + Visitor Homepage
 + Registeration
 + Login
