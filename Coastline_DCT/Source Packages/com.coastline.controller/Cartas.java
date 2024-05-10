@@ -1,3 +1,7 @@
+//CHECK CARTASENMAZOS.JAVA 
+
+//editing is required
+
 public class Carta {
     private int idCarta;
     private Integer coste;
