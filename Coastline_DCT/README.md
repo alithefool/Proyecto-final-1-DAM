@@ -1,4 +1,4 @@
-this is the project
+this is the project<br>
 <strong>Coastline - DCT</strong>
 
 <strong>A Deck Creation tool</strong>
