@@ -20,9 +20,12 @@ Languages:
 
 <h3>Overview:</h3>
 firstly, there is the matter of choosing methodology, and I'm referring to our approach to the task of developing this tool. I, @Cerrchus, think it is important to tackle function before form, so I wrote out all the Classes that will initialize the variables that are the placeholders of the values in the Mysql database so that inserts can be get and set in the tables of Coastline_DCT.
-  
 
-key: || refers to completed progress
+<br>
+<br>
+<br>
+
+<u>key: || refers to completed progress</u>
 
 Development Roadmap:
 
