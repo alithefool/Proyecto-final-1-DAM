@@ -1,7 +1,7 @@
 this is the project
-Coastline - DCT
+<strong>Coastline - DCT</strong>
 
-A Deck Creation tool
+<strong>A Deck Creation tool</strong>
 
 Tools: 
 +NetbeansIDE
