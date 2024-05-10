@@ -24,17 +24,17 @@ key: >> refers to completed progress
 
 Development Roadmap:
 
->> Flow charting
->> Use Cases
->> UML
->> Databases
->> Ubuntu Server
->> MySQL Service
->> JDBC Connection
->> Tomcat Service
->> helloWorld.jsp
->> Sample.war
->> Constructors
+>> Flow charting,
+>> Use Cases,
+>> UML,
+>> Databases,
+>> Ubuntu Server,
+>> MySQL Service,
+>> JDBC Connection,
+>> Tomcat Service,
+>> helloWorld.jsp,
+>> Sample.war,
+>> Constructors,
 + Visitor Homepage
 + Registeration
 + Login
