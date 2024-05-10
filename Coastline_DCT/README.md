@@ -19,7 +19,7 @@ Languages:
 >> SQL
 
 <h3>Overview:</h3>
-firstly, there is the matter of choosing methodology, and I'm referring to our approach to the task of developing this tool. I, @Cerrchus, think it is important to tackle function before form, so I wrote out all the Classes that will initialize the variables that are the placeholders of the values in the Mysql database so that inserts can be get and set in the tables of Coastline_DCT.
+firstly, there is the matter of choosing methodology, and I'm referring to our approach to the task of developing this tool. I, @Cerrchus, think it is important to tackle function before form, so I wrote out all the Classes that will initialize the variables that are the placeholders of the values in the Mysql database so that inserts can be get and set in the tables of Coastline_DCT. Next, there is to develop the infrastructure of our pages and the essential functionality. Starting with the homepages we create a visiter homepage and a user hompeage. Given that these pages are distinct they are developed in seperate JSPs to imporove managability, new implementation, and future maintenence. Still, these pages are two sides of the same index.jsp. 
 
 <br>
 <br>
