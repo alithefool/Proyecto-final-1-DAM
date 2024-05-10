@@ -1,5 +1,5 @@
 this is the project<br>
-<strong>Coastline - DCT</strong>
+<h1>Coastline - DCT</h1>
 
 <strong>A Deck Creation tool</strong>
 
@@ -47,7 +47,8 @@ Development Roadmap:
 ...
 
 
-Usage:
+<h1>Usage:</h1>
+<h3><a href="#">url to site</a></a></h3>
 
 A new user will have a few options when they encounter our website. there are two types of users, those who are visitors and those who are registered.
 Visitors are free to search Cards, read the FAQ, Contact us the Devs, and look at this very document. Registered users unlock the core of our service, creating and modifying decks, and printing out text files that store the information they'll iin order to supplement the experience of playing Coastline.
