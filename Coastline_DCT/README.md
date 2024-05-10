@@ -93,8 +93,7 @@ Have Suggestions? Need to ask Questions? Conact Us at "insert supportemail"
 
 
 
-Translate to spanish
-
+<h1>translate to spanish then delete this</h1>
 this is the project<br>
 <h1>Coastline - DCT</h1>
 
