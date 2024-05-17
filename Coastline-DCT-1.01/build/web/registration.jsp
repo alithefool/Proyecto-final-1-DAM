@@ -4,14 +4,14 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>Sign Up Form by Colorlib</title>
+<title>Coastline | Register</title>
 
-<!-- Font Icon -->
-<link rel="stylesheet"
-	href="fonts/material-icon/css/material-design-iconic-font.min.css">
+<!-- Fonts -->
+<!--<link rel="stylesheet"
+	href="#">-->
 
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
+<!-- Styles -->
+<link rel="stylesheet" href="css/register-styles.css">
 </head>
 <body>
     <input type="hidden" id="status" value="<%= request.getAttribute("status")%>">
@@ -21,7 +21,6 @@
              <!-- debug statement -->
     <% String status = (String) request.getAttribute("status"); %>
     <p>Status: <%= status %></p>
-		<!-- Sign up form -->
 		<section class="signup">
 			<div class="container">
 				<div class="signup-content">
@@ -32,38 +31,38 @@
 							id="register-form">
                                                         <div class="form-group">
 								<label for="fname"><i
-									class="zmdi zmdi-account material-icons-name"></i></label> <input
+									class=""></i></label> <input
 									type="text" name="fname" id="name" placeholder="Your First Name" />
 							</div>
 							<div class="form-group">
 								<label for="lname"><i
-									class="zmdi zmdi-account material-icons-name"></i></label> <input
+									class=""></i></label> <input
 									type="text" name="lname" id="name" placeholder="Your Last Name" />
 							</div>
 							<div class="form-group">
-								<label for="email"><i class="zmdi zmdi-email"></i></label> <input
+								<label for="email"><i class=""></i></label> <input
 									type="email" name="email" id="email" placeholder="Your Email" />
 							</div>
                                                         <div class="form-group">
-								<label for="username"><i class="zmdi zmdi-lock-outline"></i></label>
+								<label for="username"><i class=""></i></label>
 								<input type="text" name="username" id="username"
 									placeholder="Your Username" />
 							</div>
 							<div class="form-group">
-								<label for="pass"><i class="zmdi zmdi-lock"></i></label> <input
+								<label for="pass"><i class=""></i></label> <input
 									type="password" name="password" id="pass" placeholder="Password" />
 							</div>
 							<div class="form-group">
-								<label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+								<label for="re-pass"><i class=""></i></label>
 								<input type="password" name="re_pass" id="re_pass"
 									placeholder="Repeat your password" />
 							</div>
 							
 							<div class="form-group">
 								<input type="checkbox" name="agree-term" id="agree-term"
-									class="agree-term" /> <label for="agree-term"
+									class="" /> <label for="agree-term"
 									class="label-agree-term"><span><span></span></span>I
-									agree all statements in <a href="#" class="term-service">Terms
+									agree with all statements in the <a href="#" class="term-service">Terms
 										of service</a></label>
 							</div>
 							<div class="form-group form-button">
@@ -74,7 +73,7 @@
 					</div>
 					<div class="signup-image">
 						<figure>
-							<img src="images/signup-image.jpg" alt="sing up image">
+							<img src="images/register.jpg" alt="register-image">
 						</figure>
 						<a href="login.jsp" class="signup-image-link">I am already
 							member</a>

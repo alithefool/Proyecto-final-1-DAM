@@ -38,6 +38,6 @@ public class LogoutServlet extends HttpServlet {
         HttpSession session = null;
         session = request.getSession();
         session.invalidate();
-        response.sendRedirect("login.jsp");
+        response.sendRedirect("visitor-index.jsp");
        }
 }

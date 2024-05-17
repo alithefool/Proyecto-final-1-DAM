@@ -61,7 +61,7 @@ public class LoginServlet extends HttpServlet{
             rs = pst.executeQuery();
             if (rs.next()){
                 session.setAttribute("username", rs.getString("nombre_usuario"));
-                dispatcher = request.getRequestDispatcher("index.jsp");
+                dispatcher = request.getRequestDispatcher("user-index.jsp");
             }
             else{
                 request.setAttribute("status","failed");

@@ -1,11 +1,23 @@
-/*!
-* Start Bootstrap - Freelancer v7.0.5 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2021 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-//
+
 // Scripts
-// 
+
+//search button redirect
+
+document.addEventListener('DOMContentLoaded', function() {
+        // Add event listener to the search input field
+        document.getElementById('search').addEventListener('keypress', function(event) {
+            // Check if the Enter key is pressed (keyCode 13)
+            if (event.key === 'Enter') {
+                // Prevent the default form submission behavior
+                event.preventDefault();
+                
+                // Redirect to the desired link (card-lookup.jsp)
+                window.location.href = 'card-lookup.jsp';
+            }
+        });
+    });
+
+    // shrink the navbar 
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -23,7 +35,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
@@ -38,7 +49,7 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     };
 
-    // Collapse responsive navbar when toggler is visible
+    // collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
     const responsiveNavItems = [].slice.call(
         document.querySelectorAll('#navbarResponsive .nav-link')
@@ -52,3 +63,5 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
