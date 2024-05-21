@@ -22,7 +22,7 @@
 				<div class="signin-content">
 					<div class="signin-image">
 						<figure>
-							<img src="images/login.jpeg" alt="login-image">
+							<img src="images/login1.jpeg" alt="login-image">
 						</figure>
 						<a href="registration.jsp" class="signup-image-link">Create a
 							Coastline Account</a>

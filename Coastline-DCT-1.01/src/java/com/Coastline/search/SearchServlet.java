@@ -47,6 +47,7 @@ public class SearchServlet extends HttpServlet {
             String query = "SELECT * FROM cartas WHERE nombre LIKE ?";
             pst = conn.prepareStatement(query);
             pst.setString(1, "%" + cardName + "%");
+            System.out.println("Executing query: " + pst.toString());
             rs = pst.executeQuery();
 
             while (rs.next()) {
