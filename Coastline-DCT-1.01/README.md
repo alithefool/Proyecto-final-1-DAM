@@ -69,29 +69,31 @@ Visitors are free to search Cards, read the FAQ, Contact us the Devs, and look a
 
 Some of the static aspects of our service go without needing explaination, reading FAQs, registering, and signing in are a standard experience for any internet enjoyer. Let's break down the dynamic interactions a user can have using Coastline-DCT(Deck Creation Tool) at a high level and work down to examples.
 
-Contacting Us:
+Contacting Us: Clicking on the contact us link will lead you to a page where you can introduce your email and messade and send it to coastlinesupport@gmail.com then prompt you to return to the page
 
-Advanced Search:
+Advanced Search: Through the use of a series of fields you can introduce data about a card and filter/search for cards that fit all those specified parameters
 
-Deck Creation:
+Deck Creation: Create an empty deck that can be filled with up to 100 cards, up to 3 copies of each card. Can be saved imported and exported as a .txt file with the appropiate formatting.
 
-Deck Modification:
+Deck Modification: Modify a deck you have saved and save the changes, all deck and game related functionalities are exclusive to registered users.
 
-Deck Deletion:
+Deck Deletion: Delete registered decks, the decks are placed in a temporary trash bin before permanent deletion.
 
-Game Registration:
+Game Registration: Register a game by introducing the relevant data (date, players, decks used, winner, notes) and access the data later.
 
-Game Deletion
+Game Deletion: Delete a registered game
 
-Linking a Decks to Registered Games:
+Linking a Decks to Registered Games: 
 
 Printing Deck Info:
 
 Printing Games:
 
-Deleting Account:
+(Probably not doing these 3 above)
 
-Supporting the Devs:
+Deleting Account: Send a request from your account that deletes it after 7 days have passed
+
+Supporting the Devs: Click on a link in the about us part of the site, it will take you to a link that allows you to send money for the maintenance of the page.
 
 
 
