@@ -90,7 +90,7 @@
 						<div class="form-floating mb-3 ">
 							<div class="headline fancy-border">
 							<input class="form-control rounded" id="search" type="text" name="cardName"
-								placeholder="//" data-sb-validations="required" />
+								placeholder="//" data-sb-validations="required" required />
                                                         <!--This is the card search query-->
                                                         <label for="name"></label>
 							<div class="invalid-feedback">A
@@ -98,21 +98,8 @@
 						    </div>
 						</div>
 						
-						
-						<div class="d-none" id="submitSuccessMessage">
-							<div class="text-center mb-3">
-								<div class="fw-bolder">Form submission successful!</div>
-								To activate this form, sign up at <br /> <a
-									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-							</div>
-						</div>
-						
-						<div class="d-none" id="submitErrorMessage">
-							<div class="text-center text-danger mb-3">Error sending
-								message!</div>
-						</div>
 						<!-- Submit Button-->
-                                                <button class="btn btn-primary btn-xl rounded" id="submitButton" type="submit">Send</button>
+                                                <button class=" wp-10 btn btn-primary btn-xl rounded" id="submitButton" type="submit">Send</button>
 					</form>
 				</div>
 			</div>

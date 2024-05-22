@@ -32,35 +32,35 @@
                                                         <div class="form-group">
 								<label for="fname"><i
 									class=""></i></label> <input
-									type="text" name="fname" id="name" placeholder="Your First Name" />
+									type="text" name="fname" id="name" placeholder="Your First Name" required/>
 							</div>
 							<div class="form-group">
 								<label for="lname"><i
 									class=""></i></label> <input
-									type="text" name="lname" id="name" placeholder="Your Last Name" />
+									type="text" name="lname" id="name" placeholder="Your Last Name" required/>
 							</div>
 							<div class="form-group">
 								<label for="email"><i class=""></i></label> <input
-									type="email" name="email" id="email" placeholder="Your Email" />
+									type="email" name="email" id="email" placeholder="Your Email" required/>
 							</div>
                                                         <div class="form-group">
 								<label for="username"><i class=""></i></label>
 								<input type="text" name="username" id="username"
-									placeholder="Your Username" />
+									placeholder="Your Username" required/>
 							</div>
 							<div class="form-group">
 								<label for="pass"><i class=""></i></label> <input
-									type="password" name="password" id="pass" placeholder="Password" />
+									type="password" name="password" id="pass" placeholder="Password" required/>
 							</div>
 							<div class="form-group">
 								<label for="re-pass"><i class=""></i></label>
 								<input type="password" name="re_pass" id="re_pass"
-									placeholder="Repeat your password" />
+									placeholder="Repeat your password" required/>
 							</div>
 							
 							<div class="form-group">
 								<input type="checkbox" name="agree-term" id="agree-term"
-									class="" /> <label for="agree-term"
+									class="" required/> <label for="agree-term"
 									class="label-agree-term"><span><span></span></span>I
 									agree with all statements in the <a href="#" class="term-service">Terms
 										of service</a></label>
@@ -86,7 +86,7 @@
 	</div>
 	<!-- JS -->
 	<script src="vendor/jquery/jquery.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/scripts.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <link rel="stylesheet" href="alert/dist/sweetalert.css">
               

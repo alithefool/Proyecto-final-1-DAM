@@ -27,6 +27,9 @@
 <link href="css/visitor-index-styles.css" rel="stylesheet" />
 </head>
 <body id="page-top">
+
+
+	
 	<header class="header" id="header">
 	<!-- Navigation-->
 	<!-- nav-2 -->
@@ -38,22 +41,25 @@
                     <div class="menu collapse navbar-collapse" id="navbarResponsive">
                             <ul class="list navbar-nav ms-auto">
 
-								<li class="nav-item mx-0 mx-lg-1"><a id="logout"
-									class=" list-link nav-link py-3 px-0 px-lg-3 rounded" href="Logout"><%=session.getAttribute("username")%></a></li>
+								<li class="nav-item mx-0 mx-lg-1"><u><%=session.getAttribute("username")%></u></li>
 								
 
-                                    <li class="nav-item mx-0 mx-lg-1">
-                                        <button class="list-link btn place-items-center" id="theme-toggle-btn">
-                                            <i class=" light-mode list-link nav-link py-3 px-0 px-lg-3">light</i>
-                                            <i class=" dark-mode list-link nav-link py-3 px-0 px-lg-3">dark</i>
-                                        </button></li>
-                                    <li class="nav-item mx-0 mx-lg-1"><a
+								<li class="nav-item mx-0 mx-lg-1">
+									<button class="list-link btn place-items-center" id="theme-toggle-btn">
+										<i class=" light-mode list-link nav-link py-3 px-0 px-lg-3">light</i>
+										<i class=" dark-mode list-link nav-link py-3 px-0 px-lg-3">dark</i>
+									</button></li>
+								<li class="nav-item mx-0 mx-lg-1"><a
 
-                                            class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">Contact</a></li>
+										class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">Contact</a></li>
 
-                                    <li class="nav-item mx-0 mx-lg-1"><a
-											
-                                            class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">FAQ</a></li>
+								<li class="nav-item mx-0 mx-lg-1"><a
+										
+										class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">FAQ</a></li>
+
+								<li class="nav-item mx-0 mx-lg-1"><a id="logout"
+									class=" list-link nav-link py-3 px-0 px-lg-3 rounded" href="Logout">log out</a></li>
+									
 
                     </div>
 					<div class="list list-right">
@@ -90,7 +96,7 @@
 						<div class="form-floating mb-3 ">
 							<div class="headline fancy-border">
 							<input class="form-control rounded" id="search" type="text" name="cardName"
-								placeholder="//" data-sb-validations="required" />
+								placeholder="//" data-sb-validations="required" required/>
                                                         <!--This is the card search query-->
                                                         <label for="name"></label>
 							<div class="invalid-feedback">A
@@ -99,18 +105,6 @@
 						</div>
 						
 						
-						<div class="d-none" id="submitSuccessMessage">
-							<div class="text-center mb-3">
-								<div class="fw-bolder">Form submission successful!</div>
-								To activate this form, sign up at <br /> <a
-									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-							</div>
-						</div>
-						
-						<div class="d-none" id="submitErrorMessage">
-							<div class="text-center text-danger mb-3">Error sending
-								message!</div>
-						</div>
 						<!-- Submit Button-->
                                                 <button class="btn btn-primary btn-xl rounded" id="submitButton" type="submit">Send</button>
 					</form>
@@ -171,6 +165,7 @@
 			<small>Copyright &copy; Coastline 2024</small>
 		</div>
 	</div>
+	
  
 	<!--JS-->
 	<script src="js/scripts.js"></script>

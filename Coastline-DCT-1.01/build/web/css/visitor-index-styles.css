@@ -1028,6 +1028,11 @@ footer.light-theme{
 
 /* ABBREVIATED TAGS */
 
+.wp-10{
+  width: 10%;
+}
+
+
 .mt-5{
     margin-top: 3rem !important;
 }

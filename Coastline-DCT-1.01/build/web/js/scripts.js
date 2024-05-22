@@ -159,3 +159,23 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// random imports
+
+
+// footer blob
+
+

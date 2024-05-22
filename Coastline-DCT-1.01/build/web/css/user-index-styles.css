@@ -942,6 +942,9 @@ body.light-theme{
 
 }
 
+/* menus */
+
+decks-menu
 
 /*______________________________________________ FOOTER _________________________________________ */
 
@@ -1042,6 +1045,10 @@ body.light-theme{
 
 /* ABBREVIATED TAGS */
 
+.w-10{
+  width: 10%;
+}
+
 .mt-5{
     margin-top: 3rem !important;
 }
@@ -1103,3 +1110,18 @@ body.light-theme{
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+  /* cool footer */
+
+  
