@@ -290,12 +290,13 @@ body.light-theme{
   color: var(--light-color-alt-2);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  margin-bottom: -0.125rem; /* For .nav-tabs */
+  margin-bottom: -2rem; /* For .nav-tabs */
    /* For .nav-tabs and .nav-pills */
   border: 0.125rem solid transparent; /* For .nav-tabs */
   border-top-left-radius: 0.5rem; /* For .nav-tabs */
   border-top-right-radius: 0.5rem; /* For .nav-tabs */
   border-radius: 0.5rem; /* For .nav-pills */
+  opacity: 75%;
 }
 
 
@@ -355,6 +356,7 @@ body.light-theme{
 .navbar-nav .nav-link {
   padding-right: 0;
   padding-left: 0;
+  
 }
 
 .navbar-expand-sm .navbar-nav .nav-link,
@@ -448,6 +450,7 @@ body.light-theme{
 
 .nav-item a.nav-link {
   color: var(--light-color);
+  
 }
 
 .nav-item a.nav-link:hover {
@@ -465,6 +468,7 @@ body.light-theme{
 
 .nav-item a.nav-link.active {
   color: var(--light-color-alt-2);
+  
 }
 
 .nav-item > a.nav-link.active {
@@ -698,6 +702,7 @@ body.light-theme{
 .page-section .page-section-heading {
   font-size: var(--font-size-xl);
   line-height: var(--font-size-xl);
+  opacity: 75%;
 }
 @media (min-width: 992px) {
   .page-section .page-section-heading {
@@ -933,25 +938,34 @@ body.light-theme{
 /*________________________________DASHBOARD____________________________________________________*/
 
 
-#dash {
+.dash {
   padding-top: var(--font-size-sm);
   padding-bottom: 5rem;
-  background-color: var(--transparent-light-color);
+  background-color: var(--transparent-dark-color);
   color: var(--light-color);
   font-size: var(--font-size-md);
+  opacity: 75%;
+  
+}
 
+
+.dash .dash-row {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: nowrap; 
 }
 
 /* menus */
 
-decks-menu
 
 /*______________________________________________ FOOTER _________________________________________ */
 
 .footer {
   padding-top: var(--font-size-sm);
   padding-bottom: 5rem;
-  background-color: var(--transparent-light-color);
+  background-color: var(--transparent-dark-color);
+  opacity: 75%;
   color: var(--light-color);
   font-size: var(--font-size-md);
 
@@ -974,7 +988,9 @@ decks-menu
 /* Text Maniplation */
 
 
-
+.user-font{
+  font-size: var(--font-size-md);
+}
 
 .lead {
   font-size: var(--font-size-sm);
@@ -1035,8 +1051,25 @@ decks-menu
     font-size: 5.5rem;
     width: 100%;
     height: 6rem; /* Make the input element fill the full width */
-    background: var(--gradient-color);
+    
+  background-image: url('../images/background\ light\ alt.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+  border-radius: 15%;
     /* Additional styling if needed */
+}
+
+input.form-control .light-theme{
+
+  background-image: url('../images/background_dark_alt.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+  border-radius: 15%;
+
 }
 
 

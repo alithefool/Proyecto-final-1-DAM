@@ -18,6 +18,11 @@ import jakarta.servlet.http.HttpServletResponse;
  *
  * @author cerrchus
  */
+
+//THIS IS RETURNING NULL,
+//IS NOT PRIORITY SO WILL BE FIXED WHEN CAN BE
+
+
 @WebServlet("/visitor-index")
 public class LocalTimeServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
@@ -25,17 +30,17 @@ public class LocalTimeServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        // Get the current local date and time
+        // get the current local date and time
         LocalDateTime localDateTime = LocalDateTime.now();
         
-        // Format the local date and time
+        // format the local date and time
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         String formattedDateTime = localDateTime.format(formatter);
         
-        // Set the formatted date and time as an attribute in the request
+        // set the formatted date and time as an attribute in the request
         request.setAttribute("localDateTime", formattedDateTime);
         
-        // Forward the request to the JSP for rendering
+        // forward the request to the JSP for rendering
         request.getRequestDispatcher("visitor-index.jsp").forward(request, response);
     }
 }

@@ -24,11 +24,11 @@
 <script src="js/script.js"></script>
 
 <!-- css -->
-<link href="css/visitor-index-styles.css" rel="stylesheet" />
+<link href="css/user-index-styles.css" rel="stylesheet" />
 </head>
 <body id="page-top">
 
-
+	<a href="Logout"><input type="hidden" id="status" value="<%= request.getAttribute("status")%>"></a>
 	
 	<header class="header" id="header">
 	<!-- Navigation-->
@@ -41,23 +41,23 @@
                     <div class="menu collapse navbar-collapse" id="navbarResponsive">
                             <ul class="list navbar-nav ms-auto">
 
-								<li class="nav-item mx-0 mx-lg-1"><u><%=session.getAttribute("username")%></u></li>
+								<li class="user-font nav-item mx-0"><u><%=session.getAttribute("username")%></u></li>
 								
 
-								<li class="nav-item mx-0 mx-lg-1">
+								<li class="nav-item mx-0">
 									<button class="list-link btn place-items-center" id="theme-toggle-btn">
 										<i class=" light-mode list-link nav-link py-3 px-0 px-lg-3">light</i>
 										<i class=" dark-mode list-link nav-link py-3 px-0 px-lg-3">dark</i>
 									</button></li>
-								<li class="nav-item mx-0 mx-lg-1"><a
+								<li class="nav-item mx-0"><a
 
 										class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">Contact</a></li>
 
-								<li class="nav-item mx-0 mx-lg-1"><a
+								<li class="nav-item mx-0"><a
 										
 										class="list-link nav-link py-3 px-0 px-lg-3 rounded" href="#">FAQ</a></li>
 
-								<li class="nav-item mx-0 mx-lg-1"><a id="logout"
+								<li class="logout nav-item mx-0"><a id="logout"
 									class=" list-link nav-link py-3 px-0 px-lg-3 rounded" href="Logout">log out</a></li>
 									
 
@@ -112,9 +112,9 @@
 			</div>
 		</div>
 	</section>
-	<div id="dash" class="footer text-center">
+	<div id="dash" class="dash text-center">
 		<div class="container">
-			<div class="row footer-row">
+			<div class="row dash-row">
 				<div class="decks-menu col-lg-4 mb-5 mb-lg-0">
 					<h4 class="text-uppercase mb-4">My Decks</h4>
 					
@@ -131,34 +131,34 @@
 </main>
 
 	<!-- Footer-->
-	<footer class="footer text-center">
-		<div class="container">
-			<div class="row footer-row">
-				<div class="col-lg-4 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Your Local Time</h4>
-					<p class="lead mb-0">
-						<%= request.getAttribute("localDateTime") %>
-					</p>
-				</div>
-				<div class="col-lg-4 mb-5 mb-lg-0">
-					<h4 class="text-uppercase mb-4">Coastline Community</h4>
-					<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-facebook-f"></i></a> 
-                                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-twitter"></i></a> 
-                                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
-						class="fab fa-fw fa-linkedin-in"></i></a>
-				</div>
-				<!-- Footer About Text-->
-				<div class="col-lg-4">
-					<h4 class="text-uppercase mb-4">About Coastline</h4>
-					<p class="lead mb-0">
-						Coastline: Deck Creation Tool's <a href="https://github.com/alithefool/Proyecto-final-1-DAM/tree/main/Coastline-DCT-1.01#readme">Documentation</a> .
-					</p>
-				</div>
+<footer class="footer text-center">
+	<div class="container">
+		<div class="row footer-row">
+			<div class="col-lg-4 mb-5 mb-lg-0">
+				<h4 class="text-uppercase mb-4">Your Local Time</h4>
+				<p class="lead mb-0">
+					<%= request.getAttribute("localDateTime") %>
+				</p>
+			</div>
+			<div class="col-lg-4 mb-5 mb-lg-0">
+				<h4 class="text-uppercase mb-4">Coastline Community</h4>
+				<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+					class="fab fa-fw fa-facebook-f"></i></a> 
+									<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+					class="fab fa-fw fa-twitter"></i></a> 
+									<a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+					class="fab fa-fw fa-linkedin-in"></i></a>
+			</div>
+			<!-- Footer About Text-->
+			<div class="col-lg-4">
+				<h4 class="text-uppercase mb-4">About Coastline</h4>
+				<p class="lead mb-0">
+					Coastline: Deck Creation Tool's <a href="https://github.com/alithefool/Proyecto-final-1-DAM/tree/main/Coastline-DCT-1.01#readme">Documentation</a> .
+				</p>
 			</div>
 		</div>
-	</footer>
+	</div>
+</footer>
 	<!-- Copyright Section-->
 	<div class="copyright py-4 text-center text-white">
 		<div class="container">

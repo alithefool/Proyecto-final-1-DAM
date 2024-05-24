@@ -28,7 +28,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
   --search-case-bg-color: rgba(106,118,177,.75); 
   --search-case-color:rgba(239,237,222,.75);
   --font-family: "Slish";
-  --font-family-alt: "Slish"
+  --font-family-alt: "Slish";
   --font-size-xsm: 1.2rem;
   --font-size-sm: 1.6rem;
   --font-size-md: 2.4rem;
@@ -109,7 +109,7 @@ section{
   align-items: center;
 }
 
-.signup-content, .signin-content {
+.signin-content {
   padding-top: 67px;
   padding-bottom: 87px;
 }
@@ -122,18 +122,25 @@ section{
 
 .form-submit {
   display: inline-block;
-  background: #6dabe4;
-  color: var(--transparent-dark-color);
+  background-image: url('../images/background_dark_alt.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  color: var(--primary-background-color);
   border-bottom: none;
   width: auto;
   padding: 15px 39px;
-  border-radius: 5px;
+  border-radius: 5%;
   margin-top: 25px;
   cursor: pointer;
 }
 
 .form-submit:hover {
-  background: #4292dc;
+  background-image: url('../images/background\ light\ alt.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    color: var(--light-color);
 }
 
 .form-group {
@@ -198,13 +205,13 @@ input:focus {
 }
 
 @media screen and (max-width: 768px) {
-  .signup-content, .signin-content {
+   .signin-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .signup-form, .signin-form {
+   .signin-form {
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
@@ -218,33 +225,17 @@ input:focus {
     
   }
 
-  .signup-form,
-  .signup-image,
+  
   .signin-form,
   .signin-image {
     width: auto;
   }
 
-  .social-login {
-    justify-content: center;
-  }
-
+  
   .form-title {
     text-align: center;
   }
 }
-
-@media screen and (max-width: 400px) {
-  .social-login {
-    flex-direction: column;
-  }
-
-  .social-label {
-    margin-right: 0px;
-    margin-bottom: 10px;
-  }
-}
-
 
 
 

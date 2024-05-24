@@ -28,7 +28,7 @@
 						<figure>
 							<img class="rounded" src="images/login1.jpeg" alt="login-image">
 						</figure>
-						<a href="registration.jsp" class=" rot-y-180 signup-image-link mx-5 btn btn-primary btn-md">Create a
+						<a href="registration.jsp" class=" rot-y-180 mx-5 btn btn-primary btn-md">Create a
 							Coastline Account</a>
 					</div>
 

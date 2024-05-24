@@ -29,6 +29,8 @@ import java.util.logging.Logger;
  * @author cerrchus
  */
 
+//I SEEM TO HAVE MUDDLED THE SESSION KEY CONNECTION BETWEEN THE USER-INDEX AND THIS SERVLET, HIGH PRIORITY > NEXT FIX > MARK DONE WHEN COMPLETE
+
 @WebServlet("/Logout")
 public class LogoutServlet extends HttpServlet {
        private static final long serialVersionUID = 1L;

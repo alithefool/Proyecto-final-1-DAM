@@ -1,5 +1,5 @@
 
-/*ignoring the navbar-expand-lg, font-weight-bold, fas, fa-star, fab, fa-fw, email*/
+
 
 @charset "UTF-8";
 
@@ -301,12 +301,12 @@ footer.light-theme{
   color: var(--light-color-alt-2);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  margin-bottom: -0.125rem; /* For .nav-tabs */
-  background: none; /* For .nav-tabs and .nav-pills */
-  border: 0.125rem solid transparent; /* For .nav-tabs */
-  border-top-left-radius: 0.5rem; /* For .nav-tabs */
-  border-top-right-radius: 0.5rem; /* For .nav-tabs */
-  border-radius: 0.5rem; /* For .nav-pills */
+  margin-bottom: -0.125rem; 
+  background: none; 
+  border: 0.125rem solid transparent; 
+  border-top-left-radius: 0.5rem; 
+  border-top-right-radius: 0.5rem; 
+  border-radius: 0.5rem; 
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -318,23 +318,23 @@ footer.light-theme{
 .nav-link:hover,
 .nav-link:focus {
   color: var(--light-color-alt-2);
-  border-color: var(--light-color) var(--light-color-alt) var(--light-color-alt-2); /* For .nav-tabs */
-  isolation: isolate; /* For .nav-tabs */
+  border-color: var(--light-color) var(--light-color-alt) var(--light-color-alt-2); 
+  isolation: isolate; 
 }
 
 .nav-link.disabled {
   color: var(--secondary-background-color);
   pointer-events: none;
   cursor: default;
-  background-color: transparent; /* For .nav-tabs */
-  border-color: transparent; /* For .nav-tabs */
+  background-color: transparent; 
+  border-color: transparent; 
 }
 
 .nav-link.active,
 .nav-item.show .nav-link {
   color: var(--secondary-background-color);
   background-color: var(--light-color);
-  border-color: var(--light-color-alt) var(--light-color-alt) var(--light-color-alt); /* For .nav-tabs */
+  border-color: var(--light-color-alt) var(--light-color-alt) var(--light-color-alt); 
 }
 
 .nav-pills .nav-link.active,
@@ -616,10 +616,10 @@ footer.light-theme{
 
 /* Style for the line */
 .line {
-    width: 2px; /* Adjust line thickness as needed */
-    height: 20px; /* Adjust line height as needed */
-    background-color: var(--light-color-alt); /* Adjust line color as needed */
-    margin: 0 auto; /* Center the line horizontally */
+    width: 2px; 
+    height: 20px;
+    background-color: var(--light-color-alt); 
+    margin: 0 auto; 
 }
 
 
@@ -628,29 +628,29 @@ footer.light-theme{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) rotate(45deg); /* Rotate the line to form an 'X' */
+    transform: translate(-50%, -50%) rotate(45deg); /
 }
 
 /* Style for the close line */
 .close-line {
-    width: 2px; /* Adjust line thickness as needed */
-    height: 20px; /* Adjust line height as needed */
-    background-color: var(--secondary-background-color); /* Adjust line color as needed */
-    margin: 0 auto; /* Center the line horizontally */
-    transform: rotate(45deg); /* Rotate the line to form an 'X' */
+    width: 2px; 
+    height: 20px; 
+    background-color: var(--secondary-background-color); 
+    margin: 0 auto; 
+    transform: rotate(45deg); 
 }
 
 
 
 
 .menu-close {
-    height: 50px; /* Adjust the height as needed */
-    width: 50px; /* Adjust the width as needed */
+    height: 50px; 
+    width: 50px; 
     background-color: transparent;
     position:inherit;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(0.5); /* Scale down to half size */
+    transform: translate(-50%, -50%) scale(0.5); 
 }
 .bar1{
     left: 0px;
@@ -945,9 +945,9 @@ footer.light-theme{
 
 .footer .footer-row {
     display: flex;
-    justify-content: space-between; /* Adjusts the space between the columns */
-    align-items: center; /* Centers the items vertically */
-    flex-wrap: nowrap; /* Ensures the columns are on a single line */
+    justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: nowrap; 
 }
 
 
@@ -988,7 +988,7 @@ footer.light-theme{
 
 .form-control-wrapper {
     position: relative;
-    display: inline-block; /* Ensure the wrapper takes up the necessary space */
+    display: inline-block; 
     width: 100%;
 }
 
@@ -997,29 +997,46 @@ footer.light-theme{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Adjust the width of the border as needed */
+    width: 100%; 
     height: 100%;
-    background: transparent; /* Apply the gradient background */
+    background: transparent; 
     background-size: 100% 100%;
-    z-index: -1; /* Move the border behind the input box */
+    z-index: -1; 
     border-radius: 0.5rem !important;
 }
 
 .fancy-border span {
-    width: 100%; /* Make the span fill the full width */
-    position: relative;
-    z-index: 1;
-    display: inline-flex;
-    background: transparent; /* Remove background color */
+  width: 100%; 
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  background: transparent; 
 }
 
 .fancy-border input.form-control {
-    font-family: var(--font-family);
-    font-size: 5.5rem;
-    width: 100%;
-    height: 6rem; /* Make the input element fill the full width */
-    background: var(--gradient-color);
-    /* Additional styling if needed */
+  font-family: var(--font-family);
+  font-size: 5.5rem;
+  width: 100%;
+  height: 6rem; 
+  
+background-image: url('../images/background\ light\ alt.png');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+
+border-radius: 15%;
+  
+}
+
+input.form-control .light-theme{
+
+background-image: url('../images/background_dark_alt.png');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+
+border-radius: 15%;
+
 }
 
 
