@@ -135,9 +135,7 @@
 	<div class="container">
 		<div class="row footer-row">
 			<div class="col-lg-4 mb-5 mb-lg-0">
-				<h4 class="text-uppercase mb-4">Your Local Time</h4>
-				<p class="lead mb-0">
-					<%= request.getAttribute("localDateTime") %>
+	<h4 class="text-uppercase mb-4"><a href="Contact-us.jsp">Contact us</a></h4>
 				</p>
 			</div>
 			<div class="col-lg-4 mb-5 mb-lg-0">
