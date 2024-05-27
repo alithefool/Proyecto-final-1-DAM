@@ -11,21 +11,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/card-lookup-styles.css">
     <title>Search Result</title>
     <link rel="stylesheet" href="css/card-lookup-styles.css">
 </head>
 <body>
 
 <div class="container">
-    <h1>Search Result</h1>
+    <h1 class="textresult2">Search Results</h1>
     <div class="search-result">
         <%-- Retrieve the search results list from the session and display it --%>
         <%
             List<String> searchResults = (List<String>) session.getAttribute("searchResults");
+            
             if (searchResults != null && !searchResults.isEmpty()) {
                 for (String result : searchResults) {
         %>
-                    <p><%= result %></p>
+                    <p class="textresult"><%= result %></p>
         <%
                 }
             } else {
@@ -37,5 +39,6 @@
     </div>
 </div>
 
+    <button class="form-submit btn btn-primary btn-md rounded" onclick="history.back()">Back</button>
 </body>
 </html>
